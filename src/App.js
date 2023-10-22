@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>2049</h1>
         <Field />
       </header>
     </div>
