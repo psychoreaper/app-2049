@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "es6",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "sourceMap": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "allowJs": false,
+    "checkJs": false,
+    "baseUrl": ".",
+    "paths": {
+      "UI": ["src/UI/index.ts"],
+      "UI/*": ["src/UI/*"],
+      "common/utils": ["src/common/utils/index.ts"],
+      "common/utils/*": ["src/common/utils/*"],
+      "components/*": ["src/components/*"],
+      "layouts/*": ["src/layouts/*"],
+      "assets/*": ["src/assets/*"],
+      "routes": ["src/routes.ts"],
+      "store": ["src/store/index.ts"],
+      "types/*": ["src/types/*"],
+      "entities/*": ["src/entities/*"],
+      "test-utils": ["tests/test-utils.js"],
+      "common/*": ["src/common/*"]
+    }
+  },
+  "include": ["src/**/*", "./@types"],
+  "exclude": ["node_modules", "dist/"]
+}
